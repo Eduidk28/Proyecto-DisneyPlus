@@ -1,0 +1,21 @@
+# Requisitos del proyecto Disney+ Insights (Sprint 2)
+#
+# 1. Aplicación web (Frontend - React + TypeScript + Vite + Material UI):
+#    Requiere Node.js >= 20.19.0 (o >= 22.12.0) y npm.
+#    Instalación y ejecución:
+#      cd frontend
+#      npm install
+#      npm run dev
+#
+#    Dependencias principales declaradas en frontend/package.json:
+#      react ^19.3.1
+#      react-dom ^19.3.1
+#      @mui/material ^9.5.0
+#      @mui/icons-material ^9.5.0
+#      @emotion/react ^11.14.0
+#      @emotion/styled ^11.14.1
+#
+# 2. Script de transformación de datos (scripts/convertir_csv_json.py):
+#    Requiere Python >= 3.8.
+#    Utiliza únicamente la librería estándar de Python (csv, json, re, datetime, pathlib),
+#    por lo que no requiere paquetes externos de pip.
